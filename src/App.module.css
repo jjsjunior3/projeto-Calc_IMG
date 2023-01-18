@@ -1,0 +1,24 @@
+* { box-sizing: border-box;}
+
+body {
+    font-size: Arial, Helvetica, sans-serif;
+}
+.headerContainer {
+    max-width: 900px;
+    margin: 40px auto;
+}
+.container {
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+}
+.container .leftSide {
+    flex: 1;
+    background-color: red;
+    margin-right: 40px;
+}
+.container .rightSide {
+    flex: 1;
+    background-color:blue;
+    margin-left: 40px;
+}
